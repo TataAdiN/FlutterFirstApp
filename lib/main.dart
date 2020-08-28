@@ -1,3 +1,4 @@
+import 'package:firstapp/moduls/main/mainpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,19 +9,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("First App"),
-        ),
-        body: Center(
-          child: Container(
-              color: Colors.lightBlue,
-              width: 150,
-              height: 50,
-              child: Center(child: Text("Selamat Datang Dunia"))),
-        ),
+    return new MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.purple,
+        secondaryHeaderColor: Colors.purple[700]
       ),
+      home: MainPage()
     );
   }
 }
