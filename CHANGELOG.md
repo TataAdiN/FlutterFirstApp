@@ -12,4 +12,4 @@
 # 27 Agustus 2020
 
 **20:00**
-* first try ([57e7ecc](https://github.com/TataAdiN/nishiki-android/commit/57e7ecc9176916f88c253a086847dbd6b4e463e9))
+* first try ([4701a3f](https://github.com/TataAdiN/nishiki-android/commit/4701a3f2ab3b48eb1b020eeb6588f0c4bdc71b17))
